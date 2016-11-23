@@ -9,10 +9,10 @@
 #include <cmath>
 #include <cstdlib>
 #include <iomanip>
-#include "Eigen/Eigen/Dense"
-#include "Eigen/Eigen/Eigenvalues"
-#include "Eigen/Eigen/Cholesky"
-#include "Eigen/Eigen/Core"
+#include "Eigen/Dense"
+#include "Eigen/Eigenvalues"
+#include "Eigen/Cholesky"
+#include "Eigen/Core"
 using namespace std;
 
 typedef Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor> Matrix;

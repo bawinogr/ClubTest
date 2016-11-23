@@ -13,7 +13,6 @@
 #include "Eigen/Cholesky"
 #include "Eigen/Core"
 #include "hf_aux.cpp"
-#include "mp2_aux.cpp"
 
 using namespace std;
 
@@ -65,9 +64,7 @@ int main(int argc, char* argv[])
 
    En_total = hf_main(ao, occ, Path, V, C_mo, evals);
 
-   std::cout << "Beginning MP2" <<  std::endl;
-   
-   Emp2 = mp2_main(ao, occ, Path, V, C_mo, evals, En_total);
+   cout << "En is: " << En_total << endl;
 
    return 0;
 }
